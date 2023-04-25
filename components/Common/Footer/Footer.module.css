@@ -1,0 +1,10 @@
+.text_center_dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.main{
+    background-color: blueviolet;
+    padding: 6px;
+}

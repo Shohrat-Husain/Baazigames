@@ -1,0 +1,101 @@
+/* .rummy_baazi_add_section_wraper .item {
+    padding: 10px;
+}
+@media (min-width: 768px){
+    .rummy_baazi_add_section {
+        padding: 0 0 0 200px;
+    }
+}
+.rummy_baazi_add_section {
+    position: relative;
+    padding: 150px 0 0 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 768px){
+    .rummy_baazi_add_section .rummy_iocn {
+        right: auto;
+        margin: 0;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+.rummy_baazi_add_section .rummybaazi_inner, .rummy_baazi_add_section .rummybaazi_inner p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.rummy_baazi_add_section .rummybaazi_inner {
+    padding: 20px 60px 20px 20px;
+    background-color: #0532B2;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    color: #fff;
+} */
+.commanbutton.whitebg {
+    background-color: #fff;
+    color: #042E99;
+}
+.commanbutton {
+    display: inline-block;
+    border-radius: 50px;
+    padding: 0 25px;
+    height: 35px;
+    line-height: 35px;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+}
+.commanbutton{
+    text-decoration: none;
+}
+
+.swiper_p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+}
+.swiper_h {
+    font-size: 18px;
+    font-weight: 600;
+}
+.rummybaazi_inner{
+    padding: 20px;
+}
+
+@media (min-width: 992px)
+{
+    .slider_container{
+        display: flex;
+        position: relative;
+    
+        /* z-index: 20;
+        margin: -60px 50px 20px 50px; */
+        margin-top: 90px;
+        margin-left: 200px;
+        width: 70%;
+        /* padding: 0 0 0 200px; */
+        /* border: 2px solid black; */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+    }
+}
+ .slider_logo{
+    background-color: white;
+    width: 30%;
+    /* padding-right: 200px; */
+    /* border-radius: 10px; */
+   display: flex;
+   justify-content: center;
+   border-radius: 8px 0px 0px 8px;
+   align-items: center;
+  
+ }
+ .slider_content{
+    background-color: #0532B2;
+    width: 100%;
+    border-radius: 0px 8px 8px 0px;
+ }
