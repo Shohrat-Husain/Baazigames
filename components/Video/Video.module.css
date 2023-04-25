@@ -34,8 +34,8 @@
   }
   .span_btn_conatiner{
     position: relative;
-    margin-right: 315px;
-    margin-top: 150px;
+    margin-right: 200px;
+    margin-top: 200px;
   }
 }
 
@@ -44,16 +44,19 @@
   .span_btn {
     width: 50px;
     height: 50px;
-    /* margin-right: 315px; */
-    /* margin-bottom: 47px; */
     color: white;
   }
   .span_btn_conatiner{
     position: relative;
-    margin-right: 500px;
-    margin-top: 150px;
+    margin-right: 300px;
+    margin-top: 200px;
   }
 }
 .span_btn {
  cursor: pointer;
+}
+.swiper_main_wrapper{
+  margin-top: -200px;
+  z-index: 99;
+  position: relative;
 }

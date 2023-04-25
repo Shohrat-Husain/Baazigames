@@ -32,7 +32,7 @@ function Slider(props) {
                 <br /> <br />
               </p>
               <a
-                href="https://www.pokerbaazi.com/"
+                href={props.Href}    
                 target="_blank"
                 className={`${styles["commanbutton"]} ${styles["whitebg"]}`}
                 rel="noopener"

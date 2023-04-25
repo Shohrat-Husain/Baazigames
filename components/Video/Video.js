@@ -23,7 +23,7 @@ function Video() {
           <p>Your browser does not support the video element.</p>
         </video>
       </div>
-      <div style={{ marginTop: "-200px", zIndex: "99", position: "relative" }}>
+      <div className={styles.swiper_main_wrapper}>
         <div className="container">
           <Swiper
             slidesPerView={1}
@@ -45,6 +45,7 @@ function Video() {
                 online gaming platform of Baazi Games that caters to India’s
                 growing poker population."
                 Img="https://baazigames.com/wp-content/uploads/2021/04/PB-flat.png"
+                Href="https://www.pokerbaazi.com/"
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -52,6 +53,7 @@ function Video() {
                 title="BalleBaazi"
                 content="Catering to the country’s craze for Cricket and other sports, and offering them a platform to earn real money with their knowledge of the games, BalleBaazi is India’s one stop for fantasy sports."
                 Img="https://baazigames.com/wp-content/uploads/2022/11/BB_monogram.jpg"
+                Href="https://www.ballebaazi.com/"
               />
             </SwiperSlide>
             <SwiperSlide>
@@ -59,6 +61,7 @@ function Video() {
                 title="CardBaazi"
                 content="Card gaming is getting a brand new avatar in the Indian online gaming industry! Enjoy top notch gaming experience with CardBaazi, your one stop shop for all things card gaming."
                 Img="https://baazigames.com/wp-content/uploads/2022/11/Color_CB_Logo.png"
+                Href="https://www.cardbaazi.com/"
               />
             </SwiperSlide>
             <div className="swiper-button-prev"></div>
