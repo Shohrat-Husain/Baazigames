@@ -68,7 +68,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   position: fixed;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
   .mbl_res_nav {
     position: fixed;
     top: 0;
@@ -83,7 +83,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
   .mb_nav {
     display: block !important;
     margin-left: 10px;
@@ -170,4 +170,28 @@
 
 .nav_container input[type="checkbox"]:checked ~ .hamburger_lines .line3 {
   transform: rotate(-45deg);
+}
+
+.sidesocialfixed {
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  width: 120px;
+  text-align: center;
+  display: none;
+  z-index: 10;
+}
+@media (min-width: 992px) {
+  .sidesocialfixed {
+    display: block;
+  }
+}
+.sidesocialfixed a {
+  display: block;
+  width: 40px;
+  text-align: center;
+  margin: 0 auto 15px auto;
+}
+.icon_color{
+  color: #0532b2;
 }

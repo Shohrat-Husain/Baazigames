@@ -4,9 +4,14 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../../assets/homepage/BG-Black-and-Black.png";
 import { SiMinutemailer } from "react-icons/si";
+import {
+  FaLinkedinIn,
+  FaTwitter,
+  FaFacebookF,
+  FaInstagram,
+} from "react-icons/fa";
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
-
   const handleLinkClick = () => {
     setMenuOpen(false);
   };
@@ -83,7 +88,9 @@ function Header() {
                   </li>
                   <li>
                     <a href="mailto:info@baazigames" onClick={handleLinkClick}>
-                      <span><SiMinutemailer/> info@baazigames</span>
+                      <span>
+                        <SiMinutemailer /> info@baazigames
+                      </span>
                     </a>
                   </li>
                 </div>
@@ -107,7 +114,25 @@ function Header() {
           </div>
         </div>
       </nav>
-      <div className={styles.mbl_sticky_div}></div>
+      <div className={styles.mbl_sticky_div} />
+      <div
+        className={`${styles.sidesocialfixed} ${styles.advertisement}`}
+      >
+        <a href="https://www.linkedin.com/company/baazi-games/" target="_blank">
+          <FaLinkedinIn className={styles.icon_color} />
+        </a>
+        <a href="https://twitter.com/BaaziGames" target="_blank">
+          <FaTwitter className={styles.icon_color} />
+        </a>
+        <a href="https://www.facebook.com/BaaziGames/" target="_blank">
+          <FaFacebookF className={styles.icon_color} />
+        </a>
+        <a href="https://www.instagram.com/baazigames/" target="_blank">
+          <FaInstagram className={styles.icon_color} />
+        </a>
+        
+        
+      </div>
     </div>
   );
 }

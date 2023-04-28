@@ -1,10 +1,141 @@
-.text_center_dev{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+@media (min-width: 992px) {
+  .footer {
+    padding: 0 0 0 120px;
+  }
 }
-.main{
-    background-color: blueviolet;
-    padding: 6px;
+@media (max-width: 992px) {
+  .footersocial {
+    display: none !important;
+  }
+}
+.footer {
+  padding: 0;
+  position: relative;
+  background-color: #0532b2;
+  z-index: 10;
+}
+.footersocial {
+  position: absolute;
+  width: 120px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 30px;
+}
+footer .footersocial a {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+footer .footersocial a img {
+  width: 25px;
+  height: auto;
+}
+@media (min-width: 992px) {
+  footer .footerinner {
+    padding: 0 0 0 60px;
+  }
+}
+
+footer .footerinner {
+  background-color: #fff;
+  padding: 0;
+}
+
+.commannlinkhf h6 {
+  color: #8a8a8a;
+}
+.commannlinkhf {
+  color: #8a8a8a;
+}
+
+.gptwfoologo {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .gptwfoologomob {
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+
+.footerinner {
+  background-color: #fff;
+  padding: 0;
+}
+.footersocial {
+  position: absolute;
+  width: 120px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 30px;
+}
+.footersocial a {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footersocial a img {
+  width: 25px;
+  height: auto;
+}
+.footerinner {
+  background-color: #fff;
+  padding: 0 0 40px 0;
+}
+.majorbrands img {
+  height: 30px;
+  width: auto;
+  display: initial;
+}
+
+.footerbottom {
+  padding: 15px 0 15px 0px;
+  background-color: #0532b2;
+}
+.footerbottom p {
+  margin: 0;
+  color: #fff;
+  line-height: 22px;
+}
+
+.commannlinkhf ul li a {
+  color: #8a8a8a;
+}
+.commannlinkhf h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #042e99;
+}
+.innerwraper {
+  padding: 20px 0 20px 0;
+}
+@media (min-width: 992px) {
+  .footer {
+    padding: 0 0 0 120px !important;
+  }
+}
+.footer {
+  padding: 0;
+  position: relative;
+  background-color: #0532b2 !important;
+  z-index: 10;
+}
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+} */
+.socialfoo {
+  background: #0532b2 !important;
+  text-align: center;
+}
+.mvfooter-socialicons {
+  margin: 10px auto 0;
 }

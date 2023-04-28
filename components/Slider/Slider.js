@@ -8,7 +8,7 @@ function Slider(props) {
       <div className={styles.slider_container}>
         <div className={styles.slider_logo}>
           <a
-            href="https://www.pokerbaazi.com/"
+            href={props.logoHref}
             target="_blank"
             rel="noopener"
             tabIndex="0"

@@ -14,6 +14,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 function Video() {
   return (
     <div>
+     
       <div className={styles.vdo_wrapper}>
         <video autoPlay loop muted playsInline className="videogif">
           <source
@@ -41,6 +42,7 @@ function Video() {
             <SwiperSlide>
               <Slider
                 title="PokerBaazi"
+                logoHref="https://www.pokerbaazi.com/"
                 content="Renowned as India’s Most Trusted, PokerBaazi is a flagship
                 online gaming platform of Baazi Games that caters to India’s
                 growing poker population."
@@ -51,6 +53,7 @@ function Video() {
             <SwiperSlide>
               <Slider
                 title="BalleBaazi"
+                logoHref="https://www.ballebaazi.com/"
                 content="Catering to the country’s craze for Cricket and other sports, and offering them a platform to earn real money with their knowledge of the games, BalleBaazi is India’s one stop for fantasy sports."
                 Img="https://baazigames.com/wp-content/uploads/2022/11/BB_monogram.jpg"
                 Href="https://www.ballebaazi.com/"
@@ -59,6 +62,7 @@ function Video() {
             <SwiperSlide>
               <Slider
                 title="CardBaazi"
+                logoHref="https://www.cardbaazi.com/"
                 content="Card gaming is getting a brand new avatar in the Indian online gaming industry! Enjoy top notch gaming experience with CardBaazi, your one stop shop for all things card gaming."
                 Img="https://baazigames.com/wp-content/uploads/2022/11/Color_CB_Logo.png"
                 Href="https://www.cardbaazi.com/"
@@ -73,6 +77,7 @@ function Video() {
           </Swiper>
         </div>
       </div>
+      
     </div>
   );
 }
