@@ -57,23 +57,28 @@ function Header() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about" onClick={handleLinkClick}>
-                      about
+                    <Link href="/about-us" onClick={handleLinkClick}>
+                      About Us
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blogs" onClick={handleLinkClick}>
-                      blogs
+                    <Link href="/csr" onClick={handleLinkClick}>
+                      CSR
                     </Link>
                   </li>
                   <li>
-                    <Link href="/portfolio" onClick={handleLinkClick}>
-                      portfolio
+                    <Link href="/careers" onClick={handleLinkClick}>
+                      Careers
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact" onClick={handleLinkClick}>
-                      contact
+                    <Link href="/incubation" onClick={handleLinkClick}>
+                      Incubation
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/news" onClick={handleLinkClick}>
+                      News
                     </Link>
                   </li>
                 </div>
@@ -83,7 +88,7 @@ function Header() {
                   </h3>
                   <li>
                     <Link href="/contact-us" onClick={handleLinkClick}>
-                      Contact us
+                      Contact Us
                     </Link>
                   </li>
                   <li>
@@ -115,9 +120,7 @@ function Header() {
         </div>
       </nav>
       <div className={styles.mbl_sticky_div} />
-      <div
-        className={`${styles.sidesocialfixed} ${styles.advertisement}`}
-      >
+      <div className={`${styles.sidesocialfixed} ${styles.advertisement}`}>
         <a href="https://www.linkedin.com/company/baazi-games/" target="_blank">
           <FaLinkedinIn className={styles.icon_color} />
         </a>
@@ -130,8 +133,6 @@ function Header() {
         <a href="https://www.instagram.com/baazigames/" target="_blank">
           <FaInstagram className={styles.icon_color} />
         </a>
-        
-        
       </div>
     </div>
   );

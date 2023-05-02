@@ -7,6 +7,7 @@ import {
   FaFacebookF,
   FaInstagram,
 } from "react-icons/fa";
+import Link from "next/link";
 function Footer() {
   return (
     <div>
@@ -46,18 +47,15 @@ function Footer() {
             <div className="row">
               <div className="col-md-4 mb-3 mt-3">
                 <div className={styles.commannlinkhf}>
-                  <a
-                    href="https://baazigames.com"
-                    className="mb-2"
-                    style={{ marginLeft: "-10px" }}
-                  >
+                  <Link href="/">
                     <img
                       src="https://baazigames.com/wp-content/themes/twentytwentyone/images/BG-Black-and-Black.png"
                       className="img-fluid"
                       width="200"
                       alt="bmg"
                     />
-                  </a>
+                  </Link>
+
                   <div className="pt-1">
                     <h6>Baazi Games Pvt Ltd.</h6>
                     <p>
@@ -74,26 +72,23 @@ function Footer() {
                       <h4>Explore Baazi Games </h4>
                       <ul>
                         <li>
-                          <a href="https://baazigames.com/">Home</a>
+                          <Link href="/">Home</Link>
                         </li>
                         <li>
-                          <a href="https://baazigames.com/about-us/">
-                            About Us
-                          </a>
+                          <Link href="/about-us">About Us</Link>
                         </li>
                         <li>
-                          <a href="https://baazigames.com/csr/">CSR</a>
+                          <Link href="/csr">CSR</Link>
                         </li>
                         <li>
-                          <a href="https://baazigames.com/careers/">Careers</a>
+                          <Link href="/careers">Careers</Link>
                         </li>
                         <li>
-                          <a href="https://baazigames.com/incubation/">
-                            Incubation
-                          </a>
+                          <Link href="/incubation">Incubation</Link>
+                          <a href="https://baazigames.com/incubation/"></a>
                         </li>
                         <li>
-                          <a href="https://baazigames.com/news/">News</a>
+                          <Link href="/news">News</Link>
                         </li>
                       </ul>
                     </div>
@@ -103,11 +98,8 @@ function Footer() {
                       <h4> Support</h4>
                       <ul>
                         <li>
-                          <a href="https://baazigames.com/contact-us/">
-                            Contact us
-                          </a>
+                          <Link href="/contact-us">Contact us</Link>
                         </li>
-
                         <li>
                           <a href="mailto:info@baazigames">
                             <span>
@@ -123,14 +115,12 @@ function Footer() {
                       <h4>Legal</h4>
                       <ul>
                         <li>
-                          <a href="https://baazigames.com/terms-conditions/">
+                          <Link href="/terms-conditions">
                             Terms &amp; Conditions
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="https://baazigames.com/privacy-policy/">
-                            Privacy Policy
-                          </a>
+                          <Link href="/privacy-policy">Privacy Policy</Link>
                         </li>
                       </ul>
                     </div>

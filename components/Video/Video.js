@@ -14,7 +14,6 @@ import { BsArrowRightShort } from "react-icons/bs";
 function Video() {
   return (
     <div>
-     
       <div className={styles.vdo_wrapper}>
         <video autoPlay loop muted playsInline className="videogif">
           <source
@@ -77,7 +76,6 @@ function Video() {
           </Swiper>
         </div>
       </div>
-      
     </div>
   );
 }
