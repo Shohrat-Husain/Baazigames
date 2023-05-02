@@ -139,3 +139,9 @@ footer .footerinner {
 .mvfooter-socialicons {
   margin: 10px auto 0;
 }
+
+@media (max-width: 650px) {
+  footer .footerinner {
+    background-color: #f7f7f7;
+  }
+}

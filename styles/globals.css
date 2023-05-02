@@ -55,6 +55,11 @@ ul {
   padding-left: 0rem !important;
 }
 
+
+.swiper-pagination-bullet{
+  border: 5px solid white !important;
+}
+
 /* .v
 ideogif{
   z-index: 9;

@@ -42,6 +42,7 @@ function Footer() {
             <FaInstagram className="text-white" />
           </a>
         </div>
+        {/* mobile view content started here */}
         <div className={`${styles.footerinner} d-none d-md-block`}>
           <div className="container">
             <div className="row">
@@ -142,6 +143,7 @@ function Footer() {
             </div>
           </div>
         </div>
+        {/* mobile view content ended here */}
         <div
           className={`${styles.footerinner} ${styles.mvinnerfooter} d-block d-md-none`}
         >
@@ -176,47 +178,37 @@ function Footer() {
                         <div className=" col-6">
                           <ul>
                             <li>
-                              <a href="https://baazigames.com/">Home</a>
+                              <Link href="/">Home</Link>
                             </li>
                             <li>
-                              <a href="https://baazigames.com/about-us/">
-                                About Us
-                              </a>
+                              <Link href="/about-us">About Us</Link>
                             </li>
                             <li>
-                              <a href="https://baazigames.com/csr/">CSR</a>
+                              <Link href="/csr">CSR</Link>
                             </li>
                             <li>
-                              <a href="https://baazigames.com/careers/">
-                                Careers
-                              </a>
+                              <Link href="/careers">Careers</Link>
                             </li>
                             <li>
-                              <a href="https://baazigames.com/incubation/">
-                                Incubation
-                              </a>
+                              <Link href="/incubation">Incubation</Link>
                             </li>
                             <li>
-                              <a href="https://baazigames.com/news/">News</a>
+                              <Link href="/news">News</Link>
                             </li>
                           </ul>
                         </div>
                         <div className="col-6">
                           <ul className={styles.emailmobile}>
                             <li>
-                              <a href="https://baazigames.com/terms-conditions/">
+                              <Link href="/terms-conditions">
                                 Terms &amp; Conditions
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a href="https://baazigames.com/privacy-policy/">
-                                Privacy Policy
-                              </a>
+                              <Link href="/privacy-policy">Privacy Policy</Link>
                             </li>
                             <li>
-                              <a href="https://baazigames.com/contact-us/">
-                                Contact us
-                              </a>
+                              <Link href="/contact-us">Contact us</Link>
                             </li>
                           </ul>
                         </div>

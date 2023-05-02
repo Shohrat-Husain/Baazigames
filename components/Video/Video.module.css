@@ -19,12 +19,13 @@
 } */
 
 @media only screen and (max-width: 600px) {
-  .swiper_parent  {
+  .swiper_parent {
     display: none !important;
   }
-  
+  .vdo_wrapper_container {
+    display: none !important;
+  }
 }
-
 
 @media (min-width: 768px) {
   .span_btn {
@@ -60,4 +61,13 @@
   margin-top: -200px;
   z-index: 9;
   position: relative;
+}
+.mobile_slider {
+  background-image: linear-gradient(180deg, rgba(3, 40, 145, 0.75) 18.75%, rgba(59, 34, 118, 0.850256) 100%, rgba(165, 3, 3, 0.16) 100%), url("https://baazigames.com/wp-content/uploads/2021/04/mobilebanner-bg.jpg") !important;
+  margin-top: -90px;
+  background-size: cover;
+  overflow: hidden;
+  padding-bottom: 50px;
+  position: relative;
+  height: 500px !important;
 }
