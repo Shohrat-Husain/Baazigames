@@ -2,7 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Video from "../components/Video/Video";
-
+import Community from "../components/Community/Community";
+import Slider_2 from "../components/Slider2/Slider_2";
+import Letsplay from "../components/Slider3/Letsplay";
+import Verticle from "../components/Slider4/Verticle";
+import NewsHome from "../components/News/NewsHome";
 
 export default function Home() {
   return (
@@ -13,10 +17,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-     
-        <Video  />
-       
- 
+        <Video />
+        <Community />
+        <Slider_2 />
+        <Letsplay />
+        <Verticle />
+        <NewsHome />
       </main>
     </div>
   );

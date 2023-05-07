@@ -81,7 +81,81 @@ function Video() {
         </div>
       </div>
       {/* Mobile View */}
-      <div className="d-block d-md-none">
+      <div style={{width:'100% !important'}}>
+        <div className="d-block d-sm-none mobilewbannerwarperr">
+          <div className="mobilebanneroverlayy"></div>
+          <div className="comman-head">
+            <h2 className="heading-2 mb-0 text-center"><span className="whitecolor">Let the</span></h2>
+            <h2 className="heading-mcusgb mb-0 text-center"><span className="lightbluecolor">Games </span><span className="whitecolor"> Begin!</span></h2>
+            {/* <p className="whitecolor">Online gaming is what we do best at Baazi Games. Conceptualized in 2014, Baazi Games set out to be India’s very own technology powerhouse and a trailblazer in the Online Gaming space. Today, we stand tall with a plethora of responsive real money online games. From Poker to Rummy to Fantasy Sports, Baazi Games is a one-stop shop for real money games in India on its way to create a homegrown entertainment ecosystem. Time to hit play.</p> */}
+          </div>
+          <Swiper
+              slidesPerView={1}
+              spaceBetween={30}
+              loop={true}
+              pagination={{
+                clickable: true,
+                el: '.swiper-pagination',
+    type: 'bullets',
+              }}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay,Pagination]}
+              className={'mySwiper'}
+            >
+          <div className="mobileslierwraper">
+            <div className="mobileallbrandsslide">
+            <SwiperSlide>
+              <div className="item">
+                <div className="mobileslider">
+                  <div className="mobileslider-thumb text-center"><a href="https://www.pokerbaazi.com/" target="_blank" rel="noopener"><img src="https://baazigames.com/wp-content/uploads/2022/11/PB.png" className="img-fluid" width="100" alt="PokerBaazi" /></a></div>
+                  <div className="mobileslider-content text-center">
+                    <h3 className="text-white">PokerBaazi</h3>
+                    <div className="mbslicobten">
+                      <p className="text-white">India’s Biggest Poker Platform</p>
+                    </div>
+                    <a href="https://www.pokerbaazi.com/" target="_blank" className="commanbutton whitebg" rel="noopener">Play Now</a>
+                  </div>
+                </div>
+              </div>
+              </SwiperSlide>
+              <SwiperSlide>
+              <div className="item">
+                <div className="mobileslider">
+                  <div className="mobileslider-thumb text-center"><a href="https://www.ballebaazi.com/" target="_blank" rel="noopener"><img src="https://baazigames.com/wp-content/uploads/2022/11/bb-logo.png" className="img-fluid " width="100" alt="BalleBaazi" /></a></div>
+                  <div className="mobileslider-content text-center">
+                    <h3 className="text-white">BalleBaazi</h3>
+                    <div className="mbslicobten">
+                      <p className="text-white">Best Sports Gaming Experience</p>
+                    </div>
+                    <a href="https://www.ballebaazi.com/" target="_blank" className="commanbutton whitebg" rel="noopener">Play Now</a>
+                  </div>
+                </div>
+              </div>
+              </SwiperSlide>
+              <SwiperSlide>
+              <div className="item">
+                <div className="mobileslider">
+                  <div className="mobileslider-thumb text-center"><a href="https://cardbaazi.com/" target="_blank" rel="noopener"><img className="cbcusmobimg img-fluid " src="https://baazigames.com/wp-content/uploads/2022/11/White_CB_Logo.png" width="100" alt="RummyBaazi" /></a></div>
+                  <div className="mobileslider-content text-center">
+                    <h3 className="text-white">CardBaazi</h3>
+                    <div className="mbslicobten">
+                      <p className="text-white">India's Favourite Card Gaming Destination</p>
+                    </div>
+                    <a href="https://cardbaazi.com/" target="_blank" className="commanbutton whitebg" rel="noopener">Play Now</a>
+                  </div>
+                </div>
+              </div>
+                </SwiperSlide>
+            </div>
+          </div>
+          <div className="swiper-pagination"></div>
+          </Swiper>
+        </div>
+        </div> 
+      {/* <div className="d-block d-md-none">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -188,7 +262,7 @@ function Video() {
             </h2>
           </SwiperSlide>
         </Swiper>
-      </div>
+      </div> */}
     </div>
   );
 }

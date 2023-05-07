@@ -41,7 +41,7 @@ function Header() {
                   height={45}
                   src={Logo}
                   priority={true}
-                  className="img-fluid position-fixed"
+                  className={`${styles.header_logo_web} img-fluid position-fixed`}
                 />
               </Link>
             </div>

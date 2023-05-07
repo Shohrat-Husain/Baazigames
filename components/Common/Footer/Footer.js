@@ -71,7 +71,7 @@ function Footer() {
                   <div className="col-md-4 mb-3 col-sm-5">
                     <div className={styles.commannlinkhf}>
                       <h4>Explore Baazi Games </h4>
-                      <ul>
+                      <ul className={styles.ul}>
                         <li>
                           <Link href="/">Home</Link>
                         </li>
@@ -97,7 +97,7 @@ function Footer() {
                   <div className="col-md-3 mb-3 col-sm-4">
                     <div className={styles.commannlinkhf}>
                       <h4> Support</h4>
-                      <ul>
+                      <ul className={styles.ul}>
                         <li>
                           <Link href="/contact-us">Contact us</Link>
                         </li>
@@ -114,7 +114,7 @@ function Footer() {
                   <div className="col-md-3  mb-3  col-sm-3">
                     <div className={styles.commannlinkhf}>
                       <h4>Legal</h4>
-                      <ul>
+                      <ul className={styles.ul}>
                         <li>
                           <Link href="/terms-conditions">
                             Terms &amp; Conditions
@@ -128,7 +128,7 @@ function Footer() {
                   </div>
                   <div className="col-md-2  mb-3  col-sm-3">
                     <div className={styles.commannlinkhf}>
-                      <ul>
+                      <ul className={styles.ul}>
                         <li>
                           <img
                             className={`${styles.gptwfoologo} img-fluid`}
@@ -176,7 +176,7 @@ function Footer() {
                     <div className={styles.commannlinkhf}>
                       <div className="row">
                         <div className=" col-6">
-                          <ul>
+                          <ul className={styles.ul}>
                             <li>
                               <Link href="/">Home</Link>
                             </li>
@@ -198,7 +198,7 @@ function Footer() {
                           </ul>
                         </div>
                         <div className="col-6">
-                          <ul className={styles.emailmobile}>
+                          <ul className={`${styles.emailmobile} ${styles.ul}`}>
                             <li>
                               <Link href="/terms-conditions">
                                 Terms &amp; Conditions

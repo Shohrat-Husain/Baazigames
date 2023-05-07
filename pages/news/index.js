@@ -1,11 +1,10 @@
 import React from "react";
 import styles from "./style.module.css";
+import PaginatedItems from '../../components/News/News';
 function index() {
   return (
     <div>
-      <div className={styles.text_center_dev}>
-        <h5>Hi bro &#128075;, News page still in developement....</h5>
-      </div>
+     <PaginatedItems itemsPerPage={9} />
     </div>
   );
 }

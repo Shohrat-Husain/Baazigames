@@ -145,3 +145,8 @@ footer .footerinner {
     background-color: #f7f7f7;
   }
 }
+.ul{
+  list-style-type: none;
+  padding-left: 0rem !important;
+}
+

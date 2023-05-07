@@ -153,7 +153,7 @@
   top: 10px;
   left: 5px;
   font-size: 1.2rem;
-  color: #1c85c2;
+ z-index: 9;
 }
 
 .nav_container input[type="checkbox"]:checked ~ .menu_items {
@@ -195,3 +195,10 @@
 .icon_color{
   color: #0532b2;
 }
+
+.header_logo_web{
+  background-color: #fff;
+}
+
+
+/* new hamburger */

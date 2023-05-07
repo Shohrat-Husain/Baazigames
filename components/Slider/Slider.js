@@ -4,7 +4,7 @@ import styles from "./Slider.module.css";
 // import MedalsImg from "../../assets/homepage/medals/medalFront.png";
 function Slider(props) {
   return (
-    <div>
+    <div style={{padding:"10px"}}>
       <div className={styles.slider_container}>
         <div className={styles.slider_logo}>
           <a

@@ -1,0 +1,17 @@
+.swiper_button_next,
+.swiper_button_prev {
+  width: 50px !important;
+  height: 50px !important;
+  cursor: pointer;
+}
+.swiper_button_next{
+    margin-top: -100px;
+    margin-left: 40px;
+}
+.swiper_button_prev{
+    margin-top: -30px;
+    }
+.swiper_button_next::after,
+.swiper_button_prev::after {
+  font-size: 30px !important;
+}
