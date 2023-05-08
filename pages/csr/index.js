@@ -17,7 +17,7 @@ function index() {
                   <h4 className="heading-3 darkcolor mb-3">
                     <span>Games can do good</span>
                   </h4>
-                  <h2 className="heading-1 ">
+                  <h2 className="heading-1">
                     <span className="darkcolor">Pause for a </span>
                     <span className="bluecolor">Cause </span>
                   </h2>
@@ -113,7 +113,7 @@ function index() {
                       with Edspectrum Foundation to provide a level playing
                       field to children as they explore, experience, and gain
                       exposure to multifarious sports. In line with the
-                      government's vision of 'Khelo India' for the youth, Baazi
+                      government&apos;s vision of &apos;Khelo India&apos; for the youth, Baazi
                       Sports Foundation intends to support 20 children through a
                       fellowship program that entails bearing any monetary
                       support for their journey of sports training.

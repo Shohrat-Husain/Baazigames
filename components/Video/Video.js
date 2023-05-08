@@ -45,8 +45,8 @@ function Video() {
                 <Slider
                   title="PokerBaazi"
                   logoHref="https://www.pokerbaazi.com/"
-                  content="Renowned as India’s Most Trusted, PokerBaazi is a flagship
-                online gaming platform of Baazi Games that caters to India’s
+                  content="Renowned as India&apos;s Most Trusted, PokerBaazi is a flagship
+                online gaming platform of Baazi Games that caters to India&apos;s
                 growing poker population."
                   Img="https://baazigames.com/wp-content/uploads/2021/04/PB-flat.png"
                   Href="https://www.pokerbaazi.com/"
@@ -56,7 +56,7 @@ function Video() {
                 <Slider
                   title="BalleBaazi"
                   logoHref="https://www.ballebaazi.com/"
-                  content="Catering to the country’s craze for Cricket and other sports, and offering them a platform to earn real money with their knowledge of the games, BalleBaazi is India’s one stop for fantasy sports."
+                  content="Catering to the country&apos;s craze for Cricket and other sports, and offering them a platform to earn real money with their knowledge of the games, BalleBaazi is India&apos;s one stop for fantasy sports."
                   Img="https://baazigames.com/wp-content/uploads/2022/11/BB_monogram.jpg"
                   Href="https://www.ballebaazi.com/"
                 />
@@ -87,7 +87,6 @@ function Video() {
           <div className="comman-head">
             <h2 className="heading-2 mb-0 text-center"><span className="whitecolor">Let the</span></h2>
             <h2 className="heading-mcusgb mb-0 text-center"><span className="lightbluecolor">Games </span><span className="whitecolor"> Begin!</span></h2>
-            {/* <p className="whitecolor">Online gaming is what we do best at Baazi Games. Conceptualized in 2014, Baazi Games set out to be India’s very own technology powerhouse and a trailblazer in the Online Gaming space. Today, we stand tall with a plethora of responsive real money online games. From Poker to Rummy to Fantasy Sports, Baazi Games is a one-stop shop for real money games in India on its way to create a homegrown entertainment ecosystem. Time to hit play.</p> */}
           </div>
           <Swiper
               slidesPerView={1}
@@ -119,7 +118,7 @@ function Video() {
                   <div className="mobileslider-content text-center">
                     <h3 className="text-white">PokerBaazi</h3>
                     <div className="mbslicobten">
-                      <p className="text-white">India’s Biggest Poker Platform</p>
+                      <p className="text-white">India&apos;s Biggest Poker Platform</p>
                     </div>
                     <a href="https://www.pokerbaazi.com/" target="_blank" className="commanbutton whitebg" rel="noopener">Play Now</a>
                   </div>
