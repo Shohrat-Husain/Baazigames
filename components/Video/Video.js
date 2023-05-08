@@ -81,7 +81,7 @@ function Video() {
         </div>
       </div>
       {/* Mobile View */}
-      <div style={{width:'100% !important'}}>
+      <div style={{width:"100% !important"}}>
         <div className="d-block d-sm-none mobilewbannerwarperr">
           <div className="mobilebanneroverlayy"></div>
           <div className="comman-head">
@@ -94,15 +94,15 @@ function Video() {
               loop={true}
               pagination={{
                 clickable: true,
-                el: '.swiper-pagination',
-    type: 'bullets',
+                el: ".swiper-pagination",
+    type: "bullets",
               }}
               autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
               }}
               modules={[Autoplay,Pagination]}
-              className={'mySwiper'}
+              className={"mySwiper"}
             >
           <div className="mobileslierwraper">
             <div className="mobileallbrandsslide">
@@ -155,7 +155,7 @@ function Video() {
                   <div className="mobileslider-content text-center">
                     <h3 className="text-white">CardBaazi</h3>
                     <div className="mbslicobten">
-                      <p className="text-white">India's Favourite Card Gaming Destination</p>
+                      <p className="text-white">India&apos;s Favourite Card Gaming Destination</p>
                     </div>
                     <a href="https://cardbaazi.com/" target="_blank" className="commanbutton whitebg" rel="noopener">Play Now</a>
                   </div>
