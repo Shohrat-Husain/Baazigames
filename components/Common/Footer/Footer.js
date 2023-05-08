@@ -138,6 +138,7 @@ function Footer() {
                           <img
                             className={`${styles.gptwfoologo} img-fluid`}
                             src="https://baazigames.com/wp-content/uploads/2022/12/gptw_logo_26dec.png"
+                            alt="Baazi games"
                           />
                           </picture>
                         </li>
@@ -173,6 +174,7 @@ function Footer() {
                       <img
                         className={`${styles.gptwfoologomob} img-fluid`}
                         src="https://baazigames.com/wp-content/uploads/2022/12/gptw_logo_26dec.png"
+                        alt="Baazi games"
                       />
                       </picture>
                     </div>

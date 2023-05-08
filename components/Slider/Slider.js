@@ -26,7 +26,6 @@ function Slider(props) {
           </a>
         </div>
         <div className={styles.slider_content}>
-          {" "}
           <section className={styles.rummy_baazi_add_section}>
             <div className={styles.rummybaazi_inner}>
               <h3 className={`${styles.swiper_h} text-white`}>{props.title}</h3>

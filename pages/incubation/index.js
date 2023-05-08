@@ -53,7 +53,7 @@ function index() {
                               </h2>
                               <p>
                                 Let us shape your ideas into ventures and
-                                ventures into successful businesses. As India’s
+                                ventures into successful businesses. As India&apos;s
                                 leading tech powerhouse, we have all the
                                 resources at our disposal to help your startup
                                 become the next big thing. From lending your
@@ -62,11 +62,11 @@ function index() {
                                 business goals, with us, you will have access to
                                 a strong network of strategists and
                                 technologists that has enabled us to become
-                                India’s fastest growing online gaming group.
+                                India&apos;s fastest growing online gaming group.
                               </p>
                               <p>
                                 Ready to disrupt the market? Reach out us with
-                                your proposition at{" "}
+                                your proposition at
                                 <a href="mailto:info@baazigames.com">
                                   info@baazigames.com.
                                 </a>

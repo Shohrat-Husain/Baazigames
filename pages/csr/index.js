@@ -174,7 +174,7 @@ function index() {
                       </div>
                     </div>
                     <p>
-                      On Children’s Day, we continued our initiative of
+                      On Children&apos;s Day, we continued our initiative of
                       promoting menstrual health and hygiene amongst adolescent
                       girls in India. We make conscious efforts to spread
                       awareness about simple and sustainable practices to
@@ -399,12 +399,12 @@ function index() {
                     <p>
                       The novel COVID-19 pandemic shook the world leaving
                       millions scrambling. The nationwide lockdown implemented
-                      for everyone’s safety remained a constant battle between
+                      for everyone&apos;s safety remained a constant battle between
                       live and livelihood. Several daily wage workers
                       unfortunately faced the brunt of the pandemic as they
                       battled for their lives and livelihood. Team BalleBaazi
                       joined hands with GiveIndia to provide for our daily heros
-                      with the essentials they need. Titled ‘A Hero in need’,
+                      with the essentials they need. Titled &apos;A Hero in need&apos;,
                       the player community sourced campaign witnessed BalleBaazi
                       coins turn into valuable donations to distribute masks and
                       meals to the less fortunate as well.

@@ -14,7 +14,7 @@ export default function Community() {
                 <span>Join the community </span>
               </h4>
               <h2 className="heading-1 mb-3">
-                <span className="darkcolor">India’s Most Trusted </span>
+                <span className="darkcolor">India&apos;s Most Trusted </span>
                 <br />
                 <span className="bluecolor">Online Gaming Platform</span>
               </h2>

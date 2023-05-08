@@ -60,11 +60,11 @@ function index() {
           browser type, internet service provider (ISP), referring/exit pages,
           operating system, date/time stamp, and clickstream data. We use this
           information to analyze trends, to administer the Website, to track
-          users’ movements around the Website and to gather demographic
+          users&apos; movements around the Website and to gather demographic
           information about our user base as a whole.
           <br />
           <br />
-          b). We track trends in users’ usage and volume statistics to create a
+          b). We track trends in users&apos; usage and volume statistics to create a
           more efficient and usable Website, and to determine areas of the
           Website that could be improved to enhance the user experience.
           <br />
@@ -132,7 +132,7 @@ function index() {
       title: "BEHAVIORAL TARGETING/RE-TARGETING",
       content: (
         <div>
-          <h4>GOOGLE'S PRIVACY POLICY</h4>
+          <h4>GOOGLE&apos;S PRIVACY POLICY</h4>
           <p>
             We partner with third parties to manage our advertising on other
             Websites. Our third party partners may use technologies such as
@@ -252,7 +252,7 @@ function index() {
             internal service providers. Any sensitive information that is
             transmitted to internal service providers involved in any payment
             processing functions will be encrypted or tokenized. These internal
-            service providers’ are subject to confidentiality agreements with us
+            service providers&apos; are subject to confidentiality agreements with us
             and other legal restrictions that prohibit their use of the
             information we provide them for any other purpose except to
             facilitate the specific outsourced Baazi related operation, unless
@@ -401,7 +401,7 @@ function index() {
         <div>
           <p>
             a). Baazi may allow users to access Facebook Connect to interact
-            with friends and to share on Facebook through wall and friends’ news
+            with friends and to share on Facebook through wall and friends&apos; news
             feeds. If you are already logged into Baazi and Facebook, when you
             click on “Connect with Facebook” you will be prompted to merge your
             profiles. If you are already logged into Baazi but not logged into
@@ -590,7 +590,7 @@ function index() {
                       personal information. Personal information is information
                       about you that is personally identifiable such as your
                       name, address, phone number, and email address that is not
-                      otherwise publicly available.{" "}
+                      otherwise publicly available.
                     </p>
                     <p>
                       The privacy practices of this statement apply to our
@@ -605,7 +605,6 @@ function index() {
                 <div className="col-md-12">
                   <h5 className="mb-3"></h5>
                   <p>
-                    {" "}
                     Baazi is the controller of your Personal Data and
                     responsible for the collection, processing and disclosure of
                     your personal data as described in this Privacy Policy
