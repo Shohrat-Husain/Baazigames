@@ -571,11 +571,14 @@ function index() {
               <div className="csr-group  mb-4">
                 <div className="row">
                   <div className="col-md-6 mb-3 col-csr">
+                    <picture>
+                    <source srcSet="https://baazigames.com/wp-content/uploads/2021/03/Privacy.jpg" type="image/jpg" />
                     <img
                       src="https://baazigames.com/wp-content/uploads/2021/03/Privacy.jpg"
                       alt="baazigames"
                       className="w-100 h-auto rounded-2"
                     />
+                    </picture>
                   </div>
                   <div className="col-md-6 col-csr2">
                     <p>

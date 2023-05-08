@@ -110,7 +110,12 @@ function Video() {
             <SwiperSlide>
               <div className="item">
                 <div className="mobileslider">
-                  <div className="mobileslider-thumb text-center"><a href="https://www.pokerbaazi.com/" target="_blank" rel="noopener"><img src="https://baazigames.com/wp-content/uploads/2022/11/PB.png" className="img-fluid" width="100" alt="PokerBaazi" /></a></div>
+                  <div className="mobileslider-thumb text-center"><a href="https://www.pokerbaazi.com/" target="_blank" rel="noopener">
+                    <picture>
+                    <source srcSet="https://baazigames.com/wp-content/uploads/2022/11/PB.png" type="image/png" />
+                    <img src="https://baazigames.com/wp-content/uploads/2022/11/PB.png" className="img-fluid" width="100" alt="PokerBaazi" />
+                    </picture>
+                    </a></div>
                   <div className="mobileslider-content text-center">
                     <h3 className="text-white">PokerBaazi</h3>
                     <div className="mbslicobten">
@@ -124,7 +129,12 @@ function Video() {
               <SwiperSlide>
               <div className="item">
                 <div className="mobileslider">
-                  <div className="mobileslider-thumb text-center"><a href="https://www.ballebaazi.com/" target="_blank" rel="noopener"><img src="https://baazigames.com/wp-content/uploads/2022/11/bb-logo.png" className="img-fluid " width="100" alt="BalleBaazi" /></a></div>
+                  <div className="mobileslider-thumb text-center"><a href="https://www.ballebaazi.com/" target="_blank" rel="noopener">
+                    <picture>
+                    <source srcSet="https://baazigames.com/wp-content/uploads/2022/11/bb-logo.png" type="image/png" />
+                    <img src="https://baazigames.com/wp-content/uploads/2022/11/bb-logo.png" className="img-fluid " width="100" alt="BalleBaazi" />
+                    </picture>
+                    </a></div>
                   <div className="mobileslider-content text-center">
                     <h3 className="text-white">BalleBaazi</h3>
                     <div className="mbslicobten">
@@ -138,7 +148,11 @@ function Video() {
               <SwiperSlide>
               <div className="item">
                 <div className="mobileslider">
-                  <div className="mobileslider-thumb text-center"><a href="https://cardbaazi.com/" target="_blank" rel="noopener"><img className="cbcusmobimg img-fluid " src="https://baazigames.com/wp-content/uploads/2022/11/White_CB_Logo.png" width="100" alt="RummyBaazi" /></a></div>
+                  <div className="mobileslider-thumb text-center"><a href="https://cardbaazi.com/" target="_blank" rel="noopener">
+                    <picture>
+                    <source srcSet="https://baazigames.com/wp-content/uploads/2022/11/White_CB_Logo.png" type="image/png" />
+                    <img className="cbcusmobimg img-fluid " src="https://baazigames.com/wp-content/uploads/2022/11/White_CB_Logo.png" width="100" alt="RummyBaazi" />
+                    </picture></a></div>
                   <div className="mobileslider-content text-center">
                     <h3 className="text-white">CardBaazi</h3>
                     <div className="mbslicobten">

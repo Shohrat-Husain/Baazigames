@@ -13,6 +13,8 @@ function Slider(props) {
             rel="noopener"
             tabIndex="0"
           >
+            <picture>
+            <source srcSet={props.Img} />
             <img
               src={props.Img}
               className="img-fluid"
@@ -20,6 +22,7 @@ function Slider(props) {
               height="auto"
               alt="PokerBaazi"
             />
+            </picture>
           </a>
         </div>
         <div className={styles.slider_content}>

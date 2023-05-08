@@ -15,15 +15,15 @@ export default function Verticle() {
   return (
     <>
     <div className="mainwraper">
-      <section class="baazi-group-Other-Ventures-section">
-        <div class="container">
-          <div class="comman-head mb-3 mb-sm-5 buttonmargy">
-            <h4 class="heading-3 darkcolor mb-3 aplrightbutton">
+      <section className="baazi-group-Other-Ventures-section">
+        <div className="container">
+          <div className="comman-head mb-3 mb-sm-5 buttonmargy">
+            <h4 className="heading-3 darkcolor mb-3 aplrightbutton">
               <span>Where else do we play?</span>
             </h4>
-            <h2 class="heading-1 mb-3">
-              <span class="darkcolor">Other Ventures by </span>
-              <span class="bluecolor">Baazi</span>{" "}
+            <h2 className="heading-1 mb-3">
+              <span className="darkcolor">Other Ventures by </span>
+              <span className="bluecolor">Baazi</span>{" "}
             </h2>
           </div>
           <Swiper
@@ -40,7 +40,7 @@ export default function Verticle() {
             modules={[Navigation]}
             className="mySwiper"
           >
-            <div class="ourfamourgames-1">
+            <div className="ourfamourgames-1">
               <SwiperSlide>
                 <Slider3
                   img="https://baazigames.com/wp-content/uploads/2021/04/bpt.jpg"

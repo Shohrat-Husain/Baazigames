@@ -49,12 +49,15 @@ function Footer() {
               <div className="col-md-4 mb-3 mt-3">
                 <div className={styles.commannlinkhf}>
                   <Link href="/">
+                    <picture>
+                    <source srcSet="https://baazigames.com/wp-content/themes/twentytwentyone/images/BG-Black-and-Black.png" type="image/png" />
                     <img
                       src="https://baazigames.com/wp-content/themes/twentytwentyone/images/BG-Black-and-Black.png"
                       className="img-fluid"
                       width="200"
                       alt="bmg"
                     />
+                    </picture>
                   </Link>
 
                   <div className="pt-1">
@@ -130,10 +133,13 @@ function Footer() {
                     <div className={styles.commannlinkhf}>
                       <ul className={styles.ul}>
                         <li>
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2022/12/gptw_logo_26dec.png" type="image/png" />
                           <img
                             className={`${styles.gptwfoologo} img-fluid`}
                             src="https://baazigames.com/wp-content/uploads/2022/12/gptw_logo_26dec.png"
                           />
+                          </picture>
                         </li>
                       </ul>
                     </div>
@@ -162,10 +168,13 @@ function Footer() {
                   </div>
                   <div className={`${styles.gptw} col-3`}>
                     <div>
+                      <picture>
+                      <source srcSet="https://baazigames.com/wp-content/uploads/2022/12/gptw_logo_26dec.png" type="image/png" />
                       <img
                         className={`${styles.gptwfoologomob} img-fluid`}
                         src="https://baazigames.com/wp-content/uploads/2022/12/gptw_logo_26dec.png"
                       />
+                      </picture>
                     </div>
                   </div>
                 </div>

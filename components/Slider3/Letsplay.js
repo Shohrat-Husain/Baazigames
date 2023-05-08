@@ -15,15 +15,15 @@ export default function Letsplay() {
   return (
     <>
       <div className="mainwraper">
-        <section class="Baazi-Group-Gaming-Ventures-section letsplayyy">
-          <div class="container">
-            <div class="comman-head mb-3 mb-sm-5 buttonmargy">
-              <h4 class="heading-3 darkcolor mb-3 aplrightbutton">
+        <section className="Baazi-Group-Gaming-Ventures-section letsplayyy">
+          <div className="container">
+            <div className="comman-head mb-3 mb-sm-5 buttonmargy">
+              <h4 className="heading-3 darkcolor mb-3 aplrightbutton">
                 <span>Let’s play</span>
               </h4>
-              <h2 class="heading-1 mb-3 ">
-                <span class="darkcolor">Real Money Games by </span>
-                <span class="bluecolor">Baazi</span>
+              <h2 className="heading-1 mb-3 ">
+                <span className="darkcolor">Real Money Games by </span>
+                <span className="bluecolor">Baazi</span>
               </h2>
             </div>
             <Swiper
@@ -40,7 +40,7 @@ export default function Letsplay() {
               modules={[Navigation]}
               className="mySwiper"
             >
-              <div class="ourfamourgames-1">
+              <div className="ourfamourgames-1">
                 <SwiperSlide>
                   <Slider3
                     img="https://baazigames.com/wp-content/uploads/2021/05/PB.jpg"

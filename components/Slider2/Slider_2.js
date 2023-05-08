@@ -47,25 +47,34 @@ export default function Slider_2() {
                 <div className="slider slider-for">
                   <SwiperSlide>
                     <div className="ogoslider">
+                      <picture>
+                      <source srcSet="https://baazigames.com/wp-content/uploads/2021/03/the-baazi-group-organation-banner-scaled.jpg" type="image/jpg" />
                       <img
                         src="https://baazigames.com/wp-content/uploads/2021/03/the-baazi-group-organation-banner-scaled.jpg"
                         className="img-fluid w-100 h-auto d-none d-md-block"
                         alt="Baazi Games"
                       />
+                      </picture>
+                      <picture>
+                      <source srcSet="https://baazigames.com/wp-content/uploads/2021/04/Team_Mobile.jpg" type="image/jpg" />
                       <img
                         src="https://baazigames.com/wp-content/uploads/2021/04/Team_Mobile.jpg"
                         className="img-fluid w-100 h-auto d-block d-md-none"
                         alt="Baazi Games"
                       />
+                      </picture>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide>
                     <div className="ogoslider">
+                      <picture>
+                      <source srcSet="https://baazigames.com/wp-content/uploads/2021/03/the-baazi-group-organation-banner-1-scaled.jpg" type="image/jpg" />
                       <img
                         src="https://baazigames.com/wp-content/uploads/2021/03/the-baazi-group-organation-banner-1-scaled.jpg"
-                        className="img-fluid  w-100 h-auto"
+                        className="img-fluid w-100 h-auto"
                         alt="Baazi Games"
                       />
+                      </picture>
                     </div>
                   </SwiperSlide>
                 </div>

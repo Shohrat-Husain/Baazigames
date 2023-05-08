@@ -5,36 +5,39 @@ export default function NewsHome() {
   return (
     <>
       <section className="mainwraper">
-        <div class="container">
-          <div class="comman-head mb-5">
-            <h4 class="heading-3 darkcolor mb-3">
+        <div className="container">
+          <div className="comman-head mb-5">
+            <h4 className="heading-3 darkcolor mb-3">
               <span>News & Media</span>
             </h4>
-            <h2 class="heading-1 mb-3">
-              <span class="darkcolor">Baazi Games </span>
-              <span class="bluecolor">in News & Media</span>
+            <h2 className="heading-1 mb-3">
+              <span className="darkcolor">Baazi Games </span>
+              <span className="bluecolor">in News & Media</span>
             </h2>
           </div>
-          <div class="newsmedia row">
+          <div className="newsmedia row">
             {NewsData.slice(0, 3).map((item) => (
-              <div class="pocomn col-md-4" key={item.id}>
-                <div class="featureimage">
+              <div className="pocomn col-md-4" key={item.id}>
+                <div className="featureimage">
                   <a href={item.url} target="_blank">
+                    <picture>
+                    <source srcSet={item.img} type="image/jpg" />
                     <img src={item.img} alt="image" />
+                    </picture>
                   </a>
                 </div>
-                <div class="post-content">
+                <div className="post-content">
                   <a href={item.url} target="_blank">
                     <h4>{item.title}</h4>
                   </a>
-                  <div class="artby">
+                  <div className="artby">
                     <span>{item.Source}</span>
                   </div>
                 </div>
               </div>
             ))}
           </div>
-          <p class="text-center my-5 pb-3">
+          <p className="text-center my-5 pb-3">
             <Link href="/news" className="commanbutton buttonbg">
               more news
             </Link>

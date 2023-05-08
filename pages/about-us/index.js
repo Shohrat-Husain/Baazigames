@@ -46,9 +46,9 @@ function index() {
     };
   }, []);
 
-  const handleLinkClick = (index, event) => {
+  const handleLinkClick = (indexs, event) => {
     event.preventDefault();
-    sectionRefs.current[index].scrollIntoView({ behavior: "smooth" });
+    sectionRefs.current[indexs].scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -56,11 +56,11 @@ function index() {
       <div className="aboutusleftlinks" style={{ position: "fixed" }}>
         <ul className={styles.about_ul}>
           {["About Us", "Team", "Gaming Innovation", "Technology Talks"].map(
-            (section, index) => (
-              <li key={index}>
+            (section, indexs) => (
+              <li key={indexs}>
                 <a
-                  onClick={() => handleLinkClick(index)}
-                  ref={(el) => (linksRefs.current[index] = el)}
+                  onClick={() => handleLinkClick(indexs)}
+                  ref={(el) => (linksRefs.current[indexs] = el)}
                 >
                   {section}
                 </a>
@@ -77,25 +77,28 @@ function index() {
           ref={(el) => (sectionRefs.current[0] = el)}
           style={{ position: "sticky", top: "50px" }}
         >
-          <div class="mainwraper aboutrpafft">
-            <div class="container">
-              <div class="innerwraper">
-                <div class="aboutus-content clearfix">
-                  <div class="about-thumb aligleft">
+          <div className="mainwraper aboutrpafft">
+            <div className="container">
+              <div className="innerwraper">
+                <div className="aboutus-content clearfix">
+                  <div className="about-thumb aligleft">
+                    <picture>
+                    <source srcSet="https://baazigames.com/wp-content/uploads/2023/02/Aboutus-V2.jpg" type="image/jpg" />
                     <img
                       src="https://baazigames.com/wp-content/uploads/2023/02/Aboutus-V2.jpg"
-                      class="img-fluid w-100  h-auto"
+                      className="img-fluid w-100  h-auto"
                       alt="Baazi Games"
                     />
-                    <div class="overlapp"></div>
+                    </picture>
+                    <div className="overlapp"></div>
                   </div>
-                  <div class="comman-head">
-                    <h4 class="heading-3 darkcolor mb-3">
+                  <div className="comman-head">
+                    <h4 className="heading-3 darkcolor mb-3">
                       <span>About Us</span>
                     </h4>
-                    <h2 class="heading-1 mb-3">
-                      <span class="darkcolor">Baazi </span>
-                      <span class="bluecolor">Games</span>
+                    <h2 className="heading-1 mb-3">
+                      <span className="darkcolor">Baazi </span>
+                      <span className="bluecolor">Games</span>
                     </h2>
                     <p>
                       Established in 2014, Baazi Games set out to give India a
@@ -126,29 +129,32 @@ function index() {
           ref={(el) => (sectionRefs.current[1] = el)}
           style={{ position: "sticky", top: "50px" }}
         >
-          <div class="mainwraper aboutrpafft">
-            <div class="container">
-              <div class="innerwraper">
-                <div class="aboutus-content clearfix">
-                  <div class="ourteams-group">
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+          <div className="mainwraper aboutrpafft">
+            <div className="container">
+              <div className="innerwraper">
+                <div className="aboutus-content clearfix">
+                  <div className="ourteams-group">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2021/10/website-images_0011_navkiran-min.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2021/10/website-images_0011_navkiran-min.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                             alt="bg"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>Founder &amp; CEO, Baazi Games</span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Navkiran </span>
-                            <span class="bluecolor">Singh</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Navkiran </span>
+                            <span className="bluecolor">Singh</span>
                           </h2>
                           <p>
                             Navkiran Singh founded Baazi Games in 2014 with his
@@ -172,24 +178,27 @@ function index() {
                         </div>
                       </div>
                     </div>
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2021/10/website-images_0007_Puneet-Singh-min.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2021/10/website-images_0007_Puneet-Singh-min.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                             alt="bg"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>Co-Founder, Baazi Games </span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Puneet </span>
-                            <span class="bluecolor">Singh</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Puneet </span>
+                            <span className="bluecolor">Singh</span>
                           </h2>
                           <p>
                             The resoluteness of Puneet Singh has played a
@@ -206,24 +215,27 @@ function index() {
                         </div>
                       </div>
                     </div>
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2021/10/website-images_0008_Anirudh-Chaudhry-min.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2021/10/website-images_0008_Anirudh-Chaudhry-min.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                             alt="bg"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>Co-Founder &amp; COO, Baazi Games </span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Anirudh </span>
-                            <span class="bluecolor">Chaudhry</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Anirudh </span>
+                            <span className="bluecolor">Chaudhry</span>
                           </h2>
                           <p>
                             The man with a plan, Anirudh Chaudhry works in
@@ -236,27 +248,30 @@ function index() {
                         </div>
                       </div>
                     </div>
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2021/10/website-images_0010_Varun-Ganjoo-min.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2021/10/website-images_0010_Varun-Ganjoo-min.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                             alt="bg"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>
                               Co-Founder &amp; Chief Marketing Officer, Baazi
                               Games{" "}
                             </span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Varun </span>
-                            <span class="bluecolor">Ganjoo</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Varun </span>
+                            <span className="bluecolor">Ganjoo</span>
                           </h2>
                           <p>
                             Varun Ganjoo, a civil engineer by qualification,
@@ -276,27 +291,30 @@ function index() {
                         </div>
                       </div>
                     </div>
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2021/10/website-images_0009_Avneet-Rana-min.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2021/10/website-images_0009_Avneet-Rana-min.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                             alt="bg"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>
                               Co-Founder &amp; Chief Technology Officer, Baazi
                               Games{" "}
                             </span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Avneet </span>
-                            <span class="bluecolor">Rana</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Avneet </span>
+                            <span className="bluecolor">Rana</span>
                           </h2>
                           <p>
                             From nine to five to something I can call mine. An
@@ -316,24 +334,27 @@ function index() {
                       </div>
                     </div>
 
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2021/10/website-images_0002_Saurabh-Chopra-min.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2021/10/website-images_0002_Saurabh-Chopra-min.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                             alt="bg"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>Co-founder &amp; CEO, BalleBaazi </span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Saurabh </span>
-                            <span class="bluecolor">Chopra</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Saurabh </span>
+                            <span className="bluecolor">Chopra</span>
                           </h2>
                           <p>
                             Saurabh Chopra has been the CEO of BalleBaazi since
@@ -347,24 +368,27 @@ function index() {
                         </div>
                       </div>
                     </div>
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2021/10/website-images_0003_Sunit-Warraich-min.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2021/10/website-images_0003_Sunit-Warraich-min.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                             alt="bg"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>CEO, CardBaazi </span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Sunit </span>
-                            <span class="bluecolor">Warraich</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Sunit </span>
+                            <span className="bluecolor">Warraich</span>
                           </h2>
                           <p>
                             A graduate in Economic Honours, Sunit joined the
@@ -379,24 +403,27 @@ function index() {
                         </div>
                       </div>
                     </div>
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2021/10/website-images_0004_Sudeep-Godara-min.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2021/10/website-images_0004_Sudeep-Godara-min.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                             alt="bg"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>Chief Strategy Officer, Baazi Games </span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Sudeep </span>
-                            <span class="bluecolor">Godara</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Sudeep </span>
+                            <span className="bluecolor">Godara</span>
                           </h2>
                           <p>
                             Sudeep is a seasoned management professional in the
@@ -409,24 +436,27 @@ function index() {
                         </div>
                       </div>
                     </div>
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2021/10/website-images_0005_Gaurav-Kapoor-min.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2021/10/website-images_0005_Gaurav-Kapoor-min.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                             alt="bg"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>CFO, Baazi Games </span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Gaurav </span>
-                            <span class="bluecolor">Kapoor</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Gaurav </span>
+                            <span className="bluecolor">Kapoor</span>
                           </h2>
                           <p>
                             A battle-hardened professional, Gaurav Kapoor has
@@ -439,24 +469,27 @@ function index() {
                         </div>
                       </div>
                     </div>
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2023/04/Pranay-Picture-opt.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2023/04/Pranay-Picture-opt.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                             alt="bg"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>CHRO, Baazi Games </span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Pranay </span>
-                            <span class="bluecolor">Prakash</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Pranay </span>
+                            <span className="bluecolor">Prakash</span>
                           </h2>
                           <p>
                             An XLRI-alumni, Pranay brings with him close to two
@@ -469,24 +502,27 @@ function index() {
                         </div>
                       </div>
                     </div>
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2021/10/website-images_0000_Parth-Sharma-min.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2021/10/website-images_0000_Parth-Sharma-min.jpg"
                             alt="bg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>COO, BalleBaazi</span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Parth </span>
-                            <span class="bluecolor">Sharma</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Parth </span>
+                            <span className="bluecolor">Sharma</span>
                           </h2>
                           <p>
                             Online Skill Gaming is the first industry of the
@@ -504,23 +540,26 @@ function index() {
                         </div>
                       </div>
                     </div>
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2021/10/website-images_0001_Puneet-Dua-min.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2021/10/website-images_0001_Puneet-Dua-min.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>Chief Innovation Officer, BalleBaazi </span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Puneet </span>
-                            <span class="bluecolor">Dua</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Puneet </span>
+                            <span className="bluecolor">Dua</span>
                           </h2>
                           <p>
                             An incubator, innovator, marketer qualified from
@@ -538,26 +577,29 @@ function index() {
                         </div>
                       </div>
                     </div>
-                    <div class="row mb-4">
-                      <div class="col-md-5 col-orders-1 mb-4">
-                        <div class="about-thumb">
+                    <div className="row mb-4">
+                      <div className="col-md-5 col-orders-1 mb-4">
+                        <div className="about-thumb">
+                          <picture>
+                          <source srcSet="https://baazigames.com/wp-content/uploads/2023/04/Himank-Tripathi-opt.jpg" type="image/jpg" />
                           <img
                             src="https://baazigames.com/wp-content/uploads/2023/04/Himank-Tripathi-opt.jpg"
-                            class="img-fluid w-100  h-auto"
+                            className="img-fluid w-100  h-auto"
                           />
+                          </picture>
                         </div>
                       </div>
-                      <div class="col-md-7 col-orders-2 mb-4">
-                        <div class="comman-head">
-                          <h4 class="heading-3 darkcolor mb-3">
+                      <div className="col-md-7 col-orders-2 mb-4">
+                        <div className="comman-head">
+                          <h4 className="heading-3 darkcolor mb-3">
                             <span>
                               Chief Communications Officer &amp; Spokesperson,
                               Baazi Games{" "}
                             </span>
                           </h4>
-                          <h2 class="heading-1 mb-4">
-                            <span class="darkcolor">Himank </span>
-                            <span class="bluecolor">Tripathi</span>
+                          <h2 className="heading-1 mb-4">
+                            <span className="darkcolor">Himank </span>
+                            <span className="bluecolor">Tripathi</span>
                           </h2>
                           <p>
                             Himank leads and drives the overall communication
@@ -581,25 +623,28 @@ function index() {
           ref={(el) => (sectionRefs.current[2] = el)}
           style={{ position: "sticky", top: "50px" }}
         >
-          <div class="mainwraper aboutrpafft">
-            <div class="container">
-              <div class="innerwraper">
-                <div class="aboutus-content clearfix">
-                  <div class="about-thumb aligright">
+          <div className="mainwraper aboutrpafft">
+            <div className="container">
+              <div className="innerwraper">
+                <div className="aboutus-content clearfix">
+                  <div className="about-thumb aligright">
+                    <picture>
+                    <source srcSet="https://baazigames.com/wp-content/uploads/2021/03/gaming-innovation.jpg" type="image/jpg" />
                     <img
                       src="https://baazigames.com/wp-content/uploads/2021/03/gaming-innovation.jpg"
-                      class="img-fluid w-100  h-auto"
+                      className="img-fluid w-100  h-auto"
                       alt="Baazi Games"
                     />
-                    <div class="overlapp"></div>
+                    </picture>
+                    <div className="overlapp"></div>
                   </div>
-                  <div class="comman-head">
-                    <h4 class="heading-3 darkcolor mb-3">
+                  <div className="comman-head">
+                    <h4 className="heading-3 darkcolor mb-3">
                       <span>Gaming Innovation</span>
                     </h4>
-                    <h2 class="heading-1 mb-3">
-                      <span class="darkcolor">What sets us</span>
-                      <span class="bluecolor"> a part</span>
+                    <h2 className="heading-1 mb-3">
+                      <span className="darkcolor">What sets us</span>
+                      <span className="bluecolor"> a part</span>
                     </h2>
                     <p>
                       We are in the business of games and bringing them to your
@@ -629,25 +674,28 @@ function index() {
           ref={(el) => (sectionRefs.current[3] = el)}
           style={{ position: "sticky", top: "50px" }}
         >
-          <div class="mainwraper aboutrpafft">
-            <div class="container">
-              <div class="innerwraper">
-                <div class="aboutus-content clearfix">
-                  <div class="about-thumb aligleft">
+          <div className="mainwraper aboutrpafft">
+            <div className="container">
+              <div className="innerwraper">
+                <div className="aboutus-content clearfix">
+                  <div className="about-thumb aligleft">
+                    <picture>
+                    <source srcSet="https://baazigames.com/wp-content/uploads/2021/03/tech_talk.jpg" type="image/jpg" />
                     <img
                       src="https://baazigames.com/wp-content/uploads/2021/03/tech_talk.jpg"
-                      class="img-fluid w-100  h-auto"
+                      className="img-fluid w-100  h-auto"
                       alt="Baazi Tech Talks"
                     />
-                    <div class="overlapp"></div>
+                    </picture>
+                    <div className="overlapp"></div>
                   </div>
-                  <div class="comman-head">
-                    <h4 class="heading-3 darkcolor mb-3">
+                  <div className="comman-head">
+                    <h4 className="heading-3 darkcolor mb-3">
                       <span>Technology Talks</span>
                     </h4>
-                    <h2 class="heading-1 mb-3">
-                      <span class="darkcolor">Powered by </span>
-                      <span class="bluecolor">Gaming</span>
+                    <h2 className="heading-1 mb-3">
+                      <span className="darkcolor">Powered by </span>
+                      <span className="bluecolor">Gaming</span>
                     </h2>
                     <p>
                       Baazi Games transformed Real Money Games to an organized
