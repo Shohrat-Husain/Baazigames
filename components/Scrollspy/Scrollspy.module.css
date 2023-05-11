@@ -1,0 +1,11 @@
+.scrollspy {
+  position: fixed;
+}
+
+.scrollspy a {
+  cursor: pointer;
+}
+
+.scrollspy a.active {
+  color: #0532b2;
+}

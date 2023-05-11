@@ -1,12 +1,36 @@
 import React from "react";
 import styles from "./style.module.css";
 import Link from "next/link";
+import Head from "next/head";
 function index() {
   return (
     <div>
+      <Head>
+      <title>Contact Us | Baazi Games</title>
+        <meta
+          name="description"
+          content="Contact us via an email to our 24 Hour Customer Care Support. Email us on info@Baazigames.com."
+        />
+        <link
+          rel="icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-32x32.png"
+          sizes="32x32"
+        />
+        <link
+          rel="icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-192x192.png"
+          sizes="192x192"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-180x180.png"
+        />
+      </Head>
       <div className="aboutusleftlinks">
-   <Link href="/contact-us" className="active">Contact Us</Link>
-</div>
+        <Link href="/contact-us" className="active">
+          Contact Us
+        </Link>
+      </div>
       <div className="mainwraper">
         <div className="container">
           <div className="innerwraper">

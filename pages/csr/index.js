@@ -1,12 +1,35 @@
 import React from "react";
 import styles from "./style.module.css";
+import Head from "next/head";
+import Link from "next/link";
 function index() {
   return (
     <>
+      <Head>
+        <title>CSR | Baazi Games</title>
+        <meta
+          name="description"
+          content="Baazi Games have been actively conducting and managing CSR activities with various non-profitable organizations in order to improve communities, the economy and the environment."
+        />
+        <link
+          rel="icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-32x32.png"
+          sizes="32x32"
+        />
+        <link
+          rel="icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-192x192.png"
+          sizes="192x192"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-180x180.png"
+        />
+      </Head>
       <div className="aboutusleftlinks">
-        <a href="https://baazigames.com/csr/" className="active">
+        <Link href="https://baazigames.com/csr/" className="active">
           CSR
-        </a>
+        </Link>
       </div>
       <div className="mainwraper">
         <div className="container">
@@ -113,10 +136,10 @@ function index() {
                       with Edspectrum Foundation to provide a level playing
                       field to children as they explore, experience, and gain
                       exposure to multifarious sports. In line with the
-                      government&apos;s vision of &apos;Khelo India&apos; for the youth, Baazi
-                      Sports Foundation intends to support 20 children through a
-                      fellowship program that entails bearing any monetary
-                      support for their journey of sports training.
+                      government&apos;s vision of &apos;Khelo India&apos; for
+                      the youth, Baazi Sports Foundation intends to support 20
+                      children through a fellowship program that entails bearing
+                      any monetary support for their journey of sports training.
                     </p>
                   </div>
                 </div>
@@ -399,15 +422,15 @@ function index() {
                     <p>
                       The novel COVID-19 pandemic shook the world leaving
                       millions scrambling. The nationwide lockdown implemented
-                      for everyone&apos;s safety remained a constant battle between
-                      live and livelihood. Several daily wage workers
+                      for everyone&apos;s safety remained a constant battle
+                      between live and livelihood. Several daily wage workers
                       unfortunately faced the brunt of the pandemic as they
                       battled for their lives and livelihood. Team BalleBaazi
                       joined hands with GiveIndia to provide for our daily heros
-                      with the essentials they need. Titled &apos;A Hero in need&apos;,
-                      the player community sourced campaign witnessed BalleBaazi
-                      coins turn into valuable donations to distribute masks and
-                      meals to the less fortunate as well.
+                      with the essentials they need. Titled &apos;A Hero in
+                      need&apos;, the player community sourced campaign
+                      witnessed BalleBaazi coins turn into valuable donations to
+                      distribute masks and meals to the less fortunate as well.
                     </p>
                   </div>
                 </div>

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./style.module.css";
 import Accordian from "../../components/Accordian/Accordian";
 import Link from "next/link";
+import Head from "next/head";
 function index() {
   const items = [
     {
@@ -284,6 +285,27 @@ function index() {
   ];
   return (
     <>
+    <Head>
+    <title>Terms and Conditions | Baazi Games</title>
+        <meta
+          name="description"
+          content="This Agreement, including all addenda, is between you and the undersigned regarding any games, sweepstakes, services and tournaments in the Baazi Games network."
+        />
+       <link
+          rel="icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-32x32.png"
+          sizes="32x32"
+        />
+        <link
+          rel="icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-192x192.png"
+          sizes="192x192"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-180x180.png"
+        />
+      </Head>
       <div className="aboutusleftlinks">
         <Link href="/terms-conditions" className="active">
           Terms &amp; Conditions

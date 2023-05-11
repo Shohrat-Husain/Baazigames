@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./style.module.css";
 import Accordian from "../../components/Accordian/Accordian";
 import Link from "next/link";
+import Head from "next/head";
 function index() {
   const items = [
     {
@@ -64,9 +65,9 @@ function index() {
           information about our user base as a whole.
           <br />
           <br />
-          b). We track trends in users&apos; usage and volume statistics to create a
-          more efficient and usable Website, and to determine areas of the
-          Website that could be improved to enhance the user experience.
+          b). We track trends in users&apos; usage and volume statistics to
+          create a more efficient and usable Website, and to determine areas of
+          the Website that could be improved to enhance the user experience.
           <br />
           <br />
           c). Log files are used on the Website, and in any link to the Website
@@ -252,8 +253,8 @@ function index() {
             internal service providers. Any sensitive information that is
             transmitted to internal service providers involved in any payment
             processing functions will be encrypted or tokenized. These internal
-            service providers&apos; are subject to confidentiality agreements with us
-            and other legal restrictions that prohibit their use of the
+            service providers&apos; are subject to confidentiality agreements
+            with us and other legal restrictions that prohibit their use of the
             information we provide them for any other purpose except to
             facilitate the specific outsourced Baazi related operation, unless
             you have explicitly agreed or given your prior permission to them
@@ -401,11 +402,11 @@ function index() {
         <div>
           <p>
             a). Baazi may allow users to access Facebook Connect to interact
-            with friends and to share on Facebook through wall and friends&apos; news
-            feeds. If you are already logged into Baazi and Facebook, when you
-            click on “Connect with Facebook” you will be prompted to merge your
-            profiles. If you are already logged into Baazi but not logged into
-            Facebook, when you click on “Connect with Facebook” you will be
+            with friends and to share on Facebook through wall and friends&apos;
+            news feeds. If you are already logged into Baazi and Facebook, when
+            you click on “Connect with Facebook” you will be prompted to merge
+            your profiles. If you are already logged into Baazi but not logged
+            into Facebook, when you click on “Connect with Facebook” you will be
             prompted to enter your Facebook credentials or to “Sign up for
             Facebook.” By proceeding, you are allowing the Baazi Website to
             access your information and you are agreeing to the Facebook Terms
@@ -542,6 +543,23 @@ function index() {
   ];
   return (
     <>
+      <Head>
+        <title>Privacy Policy - Baazi Games</title>
+        <link
+          rel="icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-32x32.png"
+          sizes="32x32"
+        />
+        <link
+          rel="icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-192x192.png"
+          sizes="192x192"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-180x180.png"
+        />
+      </Head>
       <div className="aboutusleftlinks">
         <Link href="/privacy-policy" className="active">
           Privacy Policy
@@ -572,12 +590,15 @@ function index() {
                 <div className="row">
                   <div className="col-md-6 mb-3 col-csr">
                     <picture>
-                    <source srcSet="https://baazigames.com/wp-content/uploads/2021/03/Privacy.jpg" type="image/jpg" />
-                    <img
-                      src="https://baazigames.com/wp-content/uploads/2021/03/Privacy.jpg"
-                      alt="baazigames"
-                      className="w-100 h-auto rounded-2"
-                    />
+                      <source
+                        srcSet="https://baazigames.com/wp-content/uploads/2021/03/Privacy.jpg"
+                        type="image/jpg"
+                      />
+                      <img
+                        src="https://baazigames.com/wp-content/uploads/2021/03/Privacy.jpg"
+                        alt="baazigames"
+                        className="w-100 h-auto rounded-2"
+                      />
                     </picture>
                   </div>
                   <div className="col-md-6 col-csr2">

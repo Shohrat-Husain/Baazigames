@@ -1,8 +1,30 @@
 import React from "react";
 import styles from "./style.module.css";
+import Head from "next/head";
 function index() {
   return (
     <div>
+      <Head>
+      <title>Incubation | Baazi Games</title>
+        <meta
+          name="description"
+          content="Let us shape your ideas into ventures and ventures into successful businesses. As India’s leading tech powerhouse, we have all the resources at our disposal to help your startup become the next big thing."
+        />
+       <link
+          rel="icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-32x32.png"
+          sizes="32x32"
+        />
+        <link
+          rel="icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-192x192.png"
+          sizes="192x192"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="https://baazigames.com/wp-content/uploads/2022/11/cropped-BG-Blue-logo-180x180.png"
+        />
+      </Head>
       <div className="entry-content">
         <div className="vc_row wpb_row vc_row-fluid vc_custom_1616397539548">
           <div className="wpb_column vc_column_container vc_col-sm-12">
@@ -66,9 +88,7 @@ function index() {
                               </p>
                               <p>
                                 Ready to disrupt the market? Reach out us with
-                                your proposition at
-                                <a href="mailto:info@baazigames.com">
-                                  info@baazigames.com.
+                                your proposition at <a href="mailto:info@baazigames.com">info@baazigames.com.
                                 </a>
                               </p>
                             </div>
